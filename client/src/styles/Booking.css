@@ -1,0 +1,89 @@
+.Booking .BookWidget {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none;
+  margin: auto;
+}
+.Booking img {
+  width: 100%;
+}
+.Booking .existing {
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+}
+.Booking .existing form {
+  display: flex;
+  justify-content: center;
+}
+.Booking .existing form input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.Booking .existing .disclaimer {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6705882353);
+}
+.Booking .desc {
+  margin-top: 4rem;
+}
+.Booking .filler {
+  min-height: 50vh;
+}
+.Booking .loader {
+  margin-top: 3rem;
+}
+
+/* Tablet/Mobile */
+@media only screen and (max-width: 768px) {
+  .Booking .bookingResults {
+    padding: 0 10px;
+  }
+  .Booking .bookingResults .room-card {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Booking .bookingResults .room-card .card-img {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .Booking .bookingResults .room-card .card-info {
+    flex-basis: 40%;
+    width: 40%;
+  }
+  .Booking .bookingResults .room-card .card-price {
+    width: 60%;
+    flex-basis: 60%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .Booking .existing form {
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .Booking .existing form input {
+    width: auto;
+    margin: 0 0 1rem 0;
+  }
+  .Booking .bookingResults .room-card .card-info {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .Booking .bookingResults .room-card .card-info .amenities ul {
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  .Booking .bookingResults .room-card .card-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=Booking.css.map */

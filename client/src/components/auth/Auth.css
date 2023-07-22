@@ -1,0 +1,36 @@
+.Auth .login {
+  text-align: center;
+  margin: 3rem 0;
+}
+.Auth .login h1 {
+  margin-bottom: 2rem;
+}
+.Auth .login form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+.Auth .login form input {
+  margin: 10px 0;
+  padding: 14px 10px;
+}
+.Auth .login form input:focus {
+  border: 2px solid #dbd5cd;
+  outline: #dbd5cd;
+}
+.Auth .btn-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+.Auth .btn-container button {
+  width: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+  .Auth .login form {
+    width: auto;
+    margin: 0 1rem;
+  }
+}/*# sourceMappingURL=Auth.css.map */

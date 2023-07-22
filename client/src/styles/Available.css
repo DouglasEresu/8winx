@@ -1,0 +1,115 @@
+.Available {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+}
+.Available .room-card {
+  display: flex;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+.Available .room-card .card-img {
+  flex-basis: 30%;
+}
+.Available .room-card .card-info {
+  flex-basis: 50%;
+  flex-direction: column;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Available .room-card .card-info .location {
+  color: #88807e;
+  font-size: 14px;
+}
+.Available .room-card .card-info .details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.Available .room-card .card-info .details div {
+  flex-basis: 50%;
+  line-height: 1.4;
+}
+.Available .room-card .card-info .details div label {
+  font-weight: bold;
+}
+.Available .room-card .card-info .amenities {
+  margin-top: 2px;
+}
+.Available .room-card .card-info .amenities label {
+  font-weight: bold;
+}
+.Available .room-card .card-info .amenities ul {
+  display: flex;
+}
+.Available .room-card .card-info .amenities ul li {
+  margin-right: 6px;
+}
+.Available .room-card .card-info .amenities ul li i {
+  border: 1px solid #e6e6e6;
+  color: #88807e;
+  padding: 4px;
+}
+.Available .room-card .card-price {
+  flex-basis: 20%;
+  text-align: end;
+}
+.Available .room-card .card-price div label {
+  color: #88807e;
+  font-weight: bold;
+}
+.Available .room-card .card-price div h4 {
+  font-size: 2rem;
+}
+.Available .room-card .card-price button {
+  margin-top: 1rem;
+  width: 120px;
+}
+.Available .error-msg {
+  color: red;
+  text-align: center;
+}
+
+/* Tablet/Mobile */
+@media only screen and (max-width: 768px) {
+  .Available {
+    padding: 0 10px;
+  }
+  .Available .room-card {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Available .room-card .card-img {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .Available .room-card .card-info {
+    flex-basis: 40%;
+    width: 40%;
+  }
+  .Available .room-card .card-price {
+    width: 60%;
+    flex-basis: 60%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Available .room-card .card-info {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .Available .room-card .card-info .amenities ul {
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  .Available .room-card .card-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=Available.css.map */
